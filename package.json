@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "dayjs": "^1.11.10",
+    "lodash": "^4.17.21",
+    "wang-ming-uniapp-launch": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202"
+  }
+}

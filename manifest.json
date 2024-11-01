@@ -1,0 +1,117 @@
+{
+    "name" : "航天世源",
+    "appid" : "__UNI__9FFE7B1",
+    "description" : "",
+    "versionName" : "1.0.18",
+    "versionCode" : "100",
+    "transformPx" : false,
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueStyleCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        /* 模块配置 */
+        "modules" : {
+            "Camera" : {},
+            "Barcode" : {}
+        },
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 */
+            "android" : {
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_SMS\"/>",
+                    "<uses-permission android:name=\"android.permission.SEND_SMS\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SMS\"/>"
+                ],
+                "minSdkVersion" : 21
+            },
+            /* ios打包配置 */
+            "ios" : {
+                "dSYMs" : false
+            },
+            /* SDK配置 */
+            "sdkConfigs" : {
+                "ad" : {},
+                "maps" : {
+                    "amap" : {
+                        "name" : "高德地图key",
+                        "appkey_ios" : "0346fb5db871873d96bde1c012ad0b8f",
+                        "appkey_android" : "0346fb5db871873d96bde1c012ad0b8f"
+                    }
+                },
+                "geolocation" : {
+                    "amap" : {
+                        "name" : "高德地图key",
+                        "__platform__" : [ "ios", "android" ],
+                        "appkey_ios" : "0346fb5db871873d96bde1c012ad0b8f",
+                        "appkey_android" : "0346fb5db871873d96bde1c012ad0b8f"
+                    }
+                }
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "C:/Users/sy202302/Desktop/微信图片编辑_20240218083918.png",
+                    "xhdpi" : "C:/Users/sy202302/Desktop/微信图片编辑_20240218083918.png",
+                    "xxhdpi" : "C:/Users/sy202302/Desktop/微信图片编辑_20240218083918.png",
+                    "xxxhdpi" : "C:/Users/sy202302/Desktop/微信图片编辑_20240218083918.png"
+                },
+                "ios" : {
+                    "appstore" : "C:/Users/sy202302/Desktop/微信图片编辑_20240218083918.png"
+                }
+            }
+        }
+    },
+    /* 快应用特有相关 */
+    "quickapp" : {},
+    /* 小程序特有相关 */
+    "mp-weixin" : {
+        "appid" : "wx2741bda5a18ebce7",
+        "setting" : {
+            "urlCheck" : false,
+            "es6" : true,
+            "minified" : true,
+            "postcss" : false
+        },
+        "usingComponents" : true,
+        "optimization" : {
+            "subPackages" : true
+        },
+        "lazyCodeLoading" : "requiredComponents"
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true,
+        "unipush" : {
+            "enable" : false
+        }
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "vueVersion" : "3",
+    "h5" : {
+        "sdkConfigs" : {
+            "maps" : {}
+        }
+    }
+}

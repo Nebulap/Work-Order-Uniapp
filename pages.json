@@ -1,0 +1,347 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		//这里是注册主页面的地方
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		// {
+		// 	"path": "pages/me/me",
+		// 	"style": {
+		// 		"navigationStyle": "custom",
+		// 		"navigationBarTitleText": "个人信息"
+		// 	}
+		// },
+		{
+			"path": "pages/workbench/workbench",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarBackgroundColor": "#fff"
+			}
+		}
+	],
+	"subpackages": [
+		// {
+		// 	"root": "page_me",
+		// 	"pages": [{
+		// 			"path": "loginMain/loginMain",
+		// 			"style": {
+		// 				"navigationBarTitleText": "用户登录",
+		// 				"enablePullDownRefresh": false
+		// 			}
+		// 		}, {
+		// 			"path": "scanCode/scanCode",
+		// 			"style": {
+		// 				"navigationBarTitleText": "扫码登录",
+		// 				"enablePullDownRefresh": false
+		// 			}
+		// 		}, {
+		// 			"path": "loginMain/privacyInfo/privacyInfo",
+		// 			"style": {
+		// 				"navigationBarTitleText": "隐私条例",
+		// 				"enablePullDownRefresh": false
+		// 			}
+		// 		}, {
+		// 			"path": "register/register",
+		// 			"style": {
+		// 				"navigationBarTitleText": "用户注册",
+		// 				"enablePullDownRefresh": false
+		// 			}
+		// 		}, {
+		// 			"path": "todolist/todolist",
+		// 			"style": {
+		// 				"navigationBarTitleText": "待办事项",
+		// 				"enablePullDownRefresh": true
+		// 			}
+		// 		}, {
+		// 			"path": "userinfo/userinfo",
+		// 			"style": {
+		// 				"navigationBarTitleText": "个人信息",
+		// 				"enablePullDownRefresh": true
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "pointsSystem/pointsSystem",
+		// 			"style": {
+		// 				"navigationBarTitleText": "积分系统"
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "pointsSystem/pointsBonus/pointsBonus",
+		// 			"style": {
+		// 				"navigationBarTitleText": "奖扣明细"
+		// 			}
+		// 		}, {
+		// 			"path": "pointsSystem/pointsRanking/pointsRanking",
+		// 			"style": {
+		// 				"navigationBarTitleText": "排行榜"
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "suggestionBox/suggestionBox",
+		// 			"style": {
+		// 				"navigationBarTitleText": "意见箱",
+		// 				"enablePullDownRefresh": false
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "suggestionBox/InitiateSuggestion/InitiateSuggestion",
+		// 			"style": {
+		// 				"navigationBarTitleText": "发起意见",
+		// 				"enablePullDownRefresh": false,
+		// 				"navigationBarBackgroundColor": "#ffdcb6"
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "suggestionBox/reviewSuggestion/reviewSuggestion",
+		// 			"style": {
+		// 				"navigationBarTitleText": "查看意见",
+		// 				"enablePullDownRefresh": false,
+		// 				"navigationBarBackgroundColor": "#ff6050",
+		// 				"navigationBarTextStyle": "white" // 将标题栏文字颜色设置为白色
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "suggestionBox/appraiseSuggestion/appraiseSuggestion",
+		// 			"style": {
+		// 				"navigationBarTitleText": "评价",
+		// 				"enablePullDownRefresh": false
+		// 				// "navigationBarBackgroundColor": "#ffdfba"
+
+		// 			}
+		// 		}, {
+		// 			"path": "suggestionBox/administratorSuffestion/administratorSuffestion",
+		// 			"style": {
+		// 				"navigationBarTitleText": "管理员提交",
+		// 				"enablePullDownRefresh": false,
+		// 				"navigationBarBackgroundColor": "#ff6050",
+		// 				"navigationBarTextStyle": "white" // 将标题栏文字颜色设置为白色
+
+		// 			}
+		// 		}, {
+		// 			"path": "suggestionBox/suggestionExecute/suggestionExecute",
+		// 			"style": {
+		// 				"navigationBarTitleText": "意见处理",
+		// 				"enablePullDownRefresh": false,
+		// 				"navigationBarBackgroundColor": "#ff6050",
+		// 				"navigationBarTextStyle": "white" // 将标题栏文字颜色设置为白色
+		// 			}
+		// 		},
+
+		// 		{
+		// 			"path": "suggestionBox/administratorSuffestion/submitProcessResult/submitProcessResult",
+		// 			"style": {
+		// 				"navigationBarTitleText": "提交过程结果",
+		// 				"enablePullDownRefresh": false,
+		// 				"navigationBarBackgroundColor": "#ffdcb6"
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "suggestionBox/suggestionExecute/submitExecute/submitExecute",
+		// 			"style": {
+		// 				"navigationBarTitleText": "提交处理结果",
+		// 				"enablePullDownRefresh": false,
+		// 				"navigationBarBackgroundColor": "#ffdcb6"
+		// 			}
+		// 		},
+		// 		{
+		// 			"path": "changePwd/changePwd",
+		// 			"style": {
+		// 				"navigationBarTitleText": "修改密码",
+		// 				"enablePullDownRefresh": false
+		// 			}
+		// 		}
+		// 	]
+		// },
+		{
+			"root": "page_toolsmanagement",
+			"pages": [
+				{
+					"path": "main/main",
+					"style": {
+						"navigationBarTitleText": "刀具管理",
+						"enablePullDownRefresh": true
+					}
+				}
+			]
+		},
+		{
+			"root": "page_index",
+			"pages": [
+				{
+					"path": "searchFile/searchFile",
+					"style": {
+						"navigationBarTitleText": "搜索文件",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "jumpPage/jumpPage",
+					"style": {
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{
+			"root": "page_workbench",
+			"pages": [
+				{
+					"path": "TaskManagement/main/main",
+					"style": {
+						"navigationBarTitleText": "任务管理",
+						"navigationBarBackgroundColor": "#30acfc",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "TaskManagement/completedTask/completedTask",
+					"style": {
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "TaskManagement/submitParentTask/submitParentTask",
+					"style": {
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "TaskManagement/receivedTask/receivedTask",
+					"style": {
+						"navigationBarTitleText": "我收到的",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "TaskManagement/acceptanceTask/acceptanceTask",
+					"style": {
+						"navigationBarTitleText": "是否接受",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "TaskManagement/auditTask/auditTask",
+					"style": {
+						"navigationBarTitleText": "审核任务",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "TaskManagement/disposeHarmonizeTask/disposeHarmonizeTask",
+					"style": {
+						"navigationBarTitleText": "处理任务",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "TaskManagement/launchTask/launchTask",
+					"style": {
+						"navigationBarTitleText": "发起任务",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "TaskManagement/detailWorkOrder/detailWorkOrder",
+					"style": {
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "TaskManagement/draftTask/draftTask",
+					"style": {
+						"navigationBarTitleText": "草稿箱",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "TaskManagement/disposeAuditTask/disposeAuditTask",
+					"style": {
+						"navigationBarTitleText": "处理审核",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "TaskManagement/rejectedPage/rejectedPage",
+					"style": {
+						"navigationBarTitleText": "退回处理",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "TaskManagement/schedule/schedule",
+					"style": {
+						"navigationBarTitleText": "工单进度",
+						"enablePullDownRefresh": true,
+						"navigationBarBackgroundColor": "#30acfc"
+					}
+				},
+				{
+					"path": "TaskManagement/allWorkOrder/allWorkOrder",
+					"style": {
+						"navigationBarTitleText": "全员",
+						"enablePullDownRefresh": true,
+						"navigationBarBackgroundColor": "#30acfc"
+					}
+				}
+			]
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#0096e1",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icons/icon_home.png",
+				"selectedIconPath": "static/icons/icon_home_s.png",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/workbench/workbench",
+				"iconPath": "static/icons/icon_workbench.png",
+				"selectedIconPath": "static/icons/icon_workbench_s.png",
+				"text": "工作台"
+			}
+			// {
+			// 	"pagePath": "pages/me/me",
+			// 	"iconPath": "static/icons/icon_me.png",
+			// 	"selectedIconPath": "static/icons/icon_me_s.png",
+			// 	"text": "我的"
+			// }
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "四川航天世源科技有限公司",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	// 权限设置
+	"permission": {
+		"scope.userLocation": {
+			"desc": "您的位置信息将用于该活动签到"
+		}
+	},
+	"uniIdRouter": {},
+	"condition": {
+		//模式配置，仅开发期间生效
+		"current": 0,
+		//当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "",
+				//模式名称
+				"path": "",
+				//启动页面，必选
+				"query": ""
+				//启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
